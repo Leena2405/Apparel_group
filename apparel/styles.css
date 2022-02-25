@@ -1,0 +1,33 @@
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+.flex-container {
+	display: flex;
+	height: 500px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.Left {
+	height: 100%;
+	width: 70%;
+	background-image: url(images/bg-pattern-desktop.svg);
+	background-size: cover;
+}
+.Foto {
+	height: 100%;
+	width: 30%;
+	background-image: url(images/hero-desktop.jpg);
+	background-size: cover;
+}
+.container {
+	display: flex;
+	justify-content: center;
+  align-items: center;
+}

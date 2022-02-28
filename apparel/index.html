@@ -5,8 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
 
   <title>Frontend Mentor | Base Apparel coming soon page</title>
@@ -15,39 +18,46 @@
 
 </head>
 
-
-<div class="container">
-  <div class="flex-container">
-    <div class="Left">
-      <div class="logo"></div>
-      <p>we're</p>
-      <p>coming soon</p>
-      <h3>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date
-        with announcements and our lounch deals.</h3>
-      <div class="form">
-        <form>
-          </label class="description" id="title" for="field">
-          <input type="email" id="field" name="field" placeholder="Email Address" required />
-        </form>
+<body>
+  <div class="container">
+    <div class="flex-container">
+      <div class="left">
+        <div class="left-content">
+          <div class="logo"><img src="images/logo.svg"></div>
+          <p>we're</p>
+          <p>coming <br>soon</p>
+          <h3>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay
+            up-to-date
+            with announcements and our lounch deals.</h3>
+          <div class="email-input">
+            <form>
+              <input type="text" placeholder="Email Address" class="input-error" required="required">
+              <button class="btn-submit">
+                <img src="images/icon-arrow.svg" alt="arrow">
+              </button>
+              <img src="images/icon-error.svg" alt="error" class="error-icon error-icon__show">
+              <div class="error-massage__hide error-massage__show">
+                <p> Please provide a valid e-mail address!</p>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-      <div class="icon- error">
-        <span class="icon-error">
-          <span class="icon-arrow">
 
-      </div>
 
+      <div class="foto"></div>
+
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+            href="#">Your
+            Name Here</a>.
+        </p>
+      </footer>
     </div>
+  </div>
+</body>
 
-    <div class="Foto"></div>
-
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
-          href="#">Your
-          Name Here</a>.
-      </p>
-    </footer>
-    </body>
 
 </html>
